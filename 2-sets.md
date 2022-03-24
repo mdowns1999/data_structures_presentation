@@ -114,6 +114,6 @@ The second problem you will have to face is writing the remove_emails() function
 
 When you are finished, feel free to compare your solution with my own solution.  Please do not look at the solution unless your really stuck or are finished.  
 
-   [Set Problem Solution](stack_problem_solution.py)
+   [Set Problem Solution](sets_problem_solution.py)
 
 [Back to Welcome Page](0-welcome.md)
