@@ -55,22 +55,48 @@ empty( )            | shows if no nodes are present   | O(1)
 
 
 ###  Example: adding to a tree
-Now lets take a look at an example problem that use what we talked about from up above.  We will take two sets of numbers and manipulate them in the different ways we discussed.  The code down below show each of the differet ways we can manipulate a set.  Feel free to copy and paste the code to see it run in real time.
+Now lets take a look at an example problem that use what we talked about from up above.  We will take add a few numbers to the tree
 
-```python
+``` python
 
- ```
+class Node:
+
+class Node:
+    def __init__(self, data):
+        self.left_node = None
+        self.right_node = None
+        self.data = data
+
+    def insert(self, data):
+# Compare the new value with the parent node or root node.
+        if self.data:
+            if data < self.data: #If the value is less than the parent it will be inserted to the left
+                if self.left_node is None: 
+                    self.left_node = Node(data)
+                else:
+                    self.left_node.insert(data)
+            elif data > self.data: #If the value is less than the parent it will be inserted to the right
+                if self.right_node is None:
+                    self.right_node = Node(data)
+                else:
+                    self.right_node.insert(data)
+        else:
+            self.data = data
+
+root = Node(12)
+root.insert(0)
+root.insert(5)
+
+```
 
 ##  Practice Problem: Verify Email
 
-Now its time for you to try out Bianary Trees!  First, download this [tree_problem](tree_problem.py) file.  When you open the file, notice two functions you have to code.  
-
-### Problem 1:
+Now its time for you to try out Bianary Trees!  First, download this [tree_problem](code_problems/tree_problem.py) file.  When you open the file, notice two functions you have to code.  The first function in the class is the insert function you saw up above.  It will simply be used for testing and possible guidence in developing the second function.  The second function is the find_value() function.  Your goal is to take this function and write some code that will search the binary tree for a given value. You will need recursion to solve this problem.  A few hints: 1) Make a base case that will automatically return the value if found, 2) search the left side of the tree and the right side of the tree seperately.  The insert function can help provide guidance though it will be a little different. Good luck!
 
 
-### Problem 2:
 
+When you are finished, feel free to compare your solution with my own solution.  Please do not look at the solution unless your really stuck or are finished.  
 
-   [Tree Problem Solution](tree_problem_solution.py)
+[Tree Problem Solution](code_problems/tree_problem_solution.py)
 
 [Back to Welcome Page](0-welcome.md)

@@ -102,7 +102,7 @@ To add to a stack, we can use the append() funtion built into python.  If you no
 
 ##  Practice Problems: 
 
-Now it is time for you to try using stacks for yourself!  First, download the [Stack Problem](stack_problem.py) file. Next, follow the intructions down below to solve each problem.
+Now it is time for you to try using stacks for yourself!  First, download the [Stack Problem](code_problems/stack_problem.py) file. Next, follow the intructions down below to solve each problem.
 
 ### Problem 1:
 You will be coding the reverse_string() function for this problem.  If you look at the function parameters, you have an empty stack and a string passed in.  Your job is to add each letter of the string to the stack.  For example, 'Hello world' will be [d,l,r,o,w, , o,l,l,e,H].  
@@ -113,7 +113,7 @@ Make sure to return the stack at the end of the funciton.
 You will be coding the print_string_from_stack() function for this problem.  If you look at the function parameters, you have an empty stack passed in.  Your job is to take each letter from the stack and make it into a readable string again. For this problem, 
     you are NOT allowed to use the reversed function.
 
-When you are finished with the code or get stuck, please review the solution code:  [Stack Problem Solution](stack_problem_solution.py)
+When you are finished with the code or get stuck, please review the solution code:  [Stack Problem Solution](code_problems/stack_problem_solution.py)
 
 
 [Back to Welcome Page](0-welcome.md)

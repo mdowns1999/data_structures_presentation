@@ -104,7 +104,7 @@ main()
 
 ##  Practice Problem: Verify Email
 
-Now its time for you to try out sets!  First, download this [sets_problem](stack_problem.py) file.  When you open the file, notice two functions you have to code.  
+Now its time for you to try out sets!  First, download this [sets_problem](code_problems/stack_problem.py) file.  When you open the file, notice two functions you have to code.  
 
 ### Problem 1:
 The first function you will write is email_in_set.  Your goal is to check the set to see if a given email is in the set.  If it is in the set, simply let the user know the email is there.  If the email is not in the set, add the email and return the set.  Assume the email is valid.
@@ -114,6 +114,6 @@ The second problem you will have to face is writing the remove_emails() function
 
 When you are finished, feel free to compare your solution with my own solution.  Please do not look at the solution unless your really stuck or are finished.  
 
-   [Set Problem Solution](sets_problem_solution.py)
+   [Set Problem Solution](code_problems/sets_problem_solution.py)
 
 [Back to Welcome Page](0-welcome.md)
