@@ -43,7 +43,7 @@ set3 = {1,2,3,4}
 ##  How to Manipulate Sets and Efficeny of Sets
 Sets can sometimes be interesting to manipulate.  For example, you cannot replace a specifc value directly in a set like you could a list.  Instead, you would have to remove the specific item, then add it in.  So lets take a look at how to manipluate sets in different ways in the table below:
 
-Set Operation   |   Code Syntax      | Effincency
+Set Operation   |   Code Syntax      | Efficiency
 ----------------|--------------------|-----------
 add( )          | set1.add(value)    | O(1)
 remove( )       | set1.remove(value) | O(1)

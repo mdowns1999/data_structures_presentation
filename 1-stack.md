@@ -33,7 +33,7 @@ Now that we know what stacks are, what do they look like in python code?  It loo
 ##  How to Manipulate Stacks and Efficeny of Stacks
 Stacks are pretty simply and easy to use.  As we start using a stack, make sure to remember that stacks follow the FIFO (First in Frist Out) or LIFO (Last in First Out) rules.  If we are dealing with versions of a program or have a waiting list for heart transplants, we do not want the order messed up!
 
-Set Operation   |Description                     |  Code Syntax      | Effincency
+Set Operation   |Description                     |  Code Syntax      | Efficiency
 ----------------|--------------------------------|-------------------|-----------
 push( )         |Adds value on top of stack      |stack.append(value)| O(1)
 pop( )          |Removes value from top of stack |stack.remove(value)| O(1)
@@ -43,7 +43,7 @@ empty ( )       |If the length of the stack is 0.| if len(stack) ==0:| O(1)
 
 ###  Example: Version Control
 
-Now that we have seen a glimpse of the different commands to manipluate a stack, let us take a look at how each command works in code!  In the code examples below, we will have a simple stack with a bunch or strings.  
+Now that we have seen a glimpse of the different commands to manipluate a stack, let us take a look at how each command works in code!  In the code examples below, we will have a simple stack with a bunch of strings.  
 
 ### Removing from a Stack:
 To remove from a stack we will use the pop() method that is built into python.  In the code block below we have a simple block of code with a stack caled 'version_stack'.  Inside the stack we put in strings to represent different 'versions' of a file.  We then have input from the user say which version he wants back.  Now we could make a full blown working code, but with the code down below we wanted to make sure it was easy to see how removing from a stack works.  To see the code run in real time, feel free to copy and paste it in a code editor of your choice.

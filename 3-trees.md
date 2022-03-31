@@ -42,7 +42,7 @@ Now a tree has many more features like adding or removing nodes so lets take a l
 ##  How to Manipulate Bianary Trees and Efficeny of Bianary Trees
 Trees are intersting to manipulate.  down below are some of the common ways we can maniuplate trees:
 
-Set Operation       |         Description             | Effincency
+Set Operation       |         Description             | Efficiency
 --------------------|---------------------------------|------
 insert( )           | add value to tree               | O(log n)
 remove( )           | remove value from tree          | O(log n)
@@ -53,6 +53,8 @@ height( )           | Show how many levels of the tree| O(n)
 size( )             | Returns size of tree            | O(1)
 empty( )            | shows if no nodes are present   | O(1)
 
+### Recursion
+To go through a tree we will need to use recursion.  Two things to note about recursion: 1) We need a base case 2) We call the function again.  The base case is to define a stopping point for the recursion.  The recursion is like a loop where we try to break down a problem into smaller peices.  For the binary tree, we will use recursion to go through each of th enodes to add or check the size.  As we look at the examples below, look for where we call the functions again.
 
 ###  Example: adding to a tree
 Now lets take a look at an example problem that use what we talked about from up above.  We will take add a few numbers to the tree

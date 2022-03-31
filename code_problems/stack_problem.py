@@ -12,7 +12,8 @@ def print_string_from_stack(stack):
     
     #CODE PROBLEM 2 HERE
     pass
-    
+
+
 
 
 #------------PROBLEM 1 TEST CASES-----------------
