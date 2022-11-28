@@ -1,2 +1,16 @@
-# cse-212-data_structures_final
-This is a repository for the CSE 212 Data Structures class.  This repository will contain code examples and documentation for the final project.
+# Learning Data Structures
+Welcome to this tutorial!  In this tutorial we will be learning about three different data structures:
+
+1. [Stacks](1-stack.md)
+2. [Sets](2-sets.md)
+3. [Tree](3-trees.md)
+
+Each module will explain each data structure and give an example and a practice problem to complete.  Each practice problem will have a solution after you complete the task.
+
+-----
+##  Contact
+Mike Downs
+
+CSE 212
+
+dow17015@byui.edu
