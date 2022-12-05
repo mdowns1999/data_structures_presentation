@@ -11,6 +11,4 @@ Each module will explain each data structure and give an example and a practice 
 ##  Contact
 Mike Downs
 
-CSE 212
-
 dow17015@byui.edu
